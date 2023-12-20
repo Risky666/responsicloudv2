@@ -1,0 +1,288 @@
+:root
+{
+    --blue:#2c2546;
+    --dark-blue:#181535;
+    --white:#fff;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family:Tahoma;
+
+}
+
+
+
+body
+{
+background-color: black;
+color:var(--white);
+}
+
+
+header
+{
+text-align: center;
+background-color: var(--blue);
+width: 100%;
+font-weight: bold;
+padding: 2%;
+top:0;
+}
+
+.title
+{
+    color:var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.input-search
+{
+    width: 30%;
+    border:none;
+    padding:2px;
+}
+
+
+nav ul
+{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav
+{
+    margin-top: 15px;
+}
+
+nav ul li a 
+{  
+    color: white;
+    
+}
+
+nav ul li a:hover
+{  
+  border-bottom: 3px solid var(--white);
+}
+
+
+.slider
+{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 65%;
+}
+
+.slider h4
+{
+    margin-top: 5%;
+}
+
+.slides
+{
+    display: flex;
+    width: 50rem;
+    overflow: hidden;
+}
+
+.slides img 
+{
+    border-radius: 10px;
+}
+
+.slide
+{
+    width: 50rem;
+    transition: .5s;
+}
+
+.choose_1:checked ~ .slides > .s1
+{
+    margin-left: -0rem;
+}
+
+.choose_2:checked ~ .slides > .s1
+{
+    margin-left: -50rem
+}
+  
+.title-p{
+    font-family: Helvetica;
+    margin-top: 5% ;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.nama-game{
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 20px;
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; 
+    margin: 50px;
+    
+  }
+  
+  .grid-item {
+    background-color:var(--blue);
+    padding: 20px;
+    text-align: center;
+  }
+
+
+ .tentang{
+    
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 15pt;
+}
+ 
+.card
+{
+    background-color: var(--dark-blue);
+    padding: 5%;
+    
+    
+}
+ 
+.card h1
+{
+    text-align: center;
+}
+ 
+html
+{
+    scroll-behavior: smooth;
+}
+ 
+ 
+footer
+{
+    display: grid;
+    justify-content: center;
+    background-color:black;
+    margin-top: 2%;
+    padding: 2%;
+}
+ 
+.sosmed img 
+{
+    width: 50px;
+}
+ 
+#copyright
+{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+//bagian seting uc pubg
+.uc{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; 
+    margin: 50px;
+}
+
+.pricelistPUBG{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.grid-itemPUBG {
+    background-color: var(--dark-blue);
+    padding: 20px;
+    text-align: center;
+  }
+
+.sosmedPUBG{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px; //untuk mengatur jarak antara kotak
+    
+}
+
+//bagian seting mobilentod
+.dmMLBB{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; 
+    margin: 50px;
+}
+
+
+.pricelistMLBB{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.grid-itemMLBB {
+    background-color:var(--dark-blue);
+    padding: 20px;
+    text-align: center;
+  }
+
+.sosmedMLBB{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px; //untuk mengatur jarak antara kotak
+    
+}
+
+
+//Bagian GENSHIN IMPACT
+.GCGI{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; 
+    margin: 50px;
+}
+
+
+.pricelistGI{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.grid-itemGI {
+    background-color:var(--dark-blue);
+    padding: 20px;
+    text-align: center;
+  }
+
+.sosmedGI{
+    
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px; //untuk mengatur jarak antara kotak
+    
+}
+
